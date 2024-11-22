@@ -1,9 +1,10 @@
-import { ContactTable } from "@/components/ContactsTable";
+import ContactsTable from "@/components/ContactsTable";
 
 export default function Home() {
-
-  // Contact table Component
   return (
-    <ContactTable />
+    // Contact table Component
+    <>
+      <ContactsTable />
+    </>
   );
 }
